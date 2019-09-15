@@ -10,14 +10,14 @@
         "projectUniqueName": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\OBJETOS\\MascotaParlante\\pg2-s19e301-mascotas-parlante-charmorsa\\MascotasParlantes\\Entidades\\Entidades.vbproj",
         "projectName": "Entidades",
         "projectPath": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\OBJETOS\\MascotaParlante\\pg2-s19e301-mascotas-parlante-charmorsa\\MascotasParlantes\\Entidades\\Entidades.vbproj",
-        "packagesPath": "C:\\Users\\wasti\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Char\\.nuget\\packages\\",
         "outputPath": "E:\\facultad\\SEGUNDO\\PROGRAMACION 2\\trabajos\\OBJETOS\\MascotaParlante\\pg2-s19e301-mascotas-parlante-charmorsa\\MascotasParlantes\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wasti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Char\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

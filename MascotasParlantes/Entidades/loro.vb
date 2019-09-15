@@ -5,7 +5,6 @@ Public Class Loro
         memoria = New Queue(Of String)
         FechaNacimiento = Date.Now
         Nombre = " "
-        memoria = New Queue(Of String)
     End Sub
 
     Public ReadOnly Property Edad As Short
@@ -54,5 +53,7 @@ Public Class Loro
         End If
         Return frase
     End Function
-
+    Public Overrides Function ToString() As String
+        Return Nombre
+    End Function
 End Class

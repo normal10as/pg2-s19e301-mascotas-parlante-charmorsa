@@ -1,4 +1,5 @@
-﻿Module Module1
+﻿Imports Entidades
+Module Module1
     Sub main()
         'ClienteTest()
         CuentaTest.Hacer()
