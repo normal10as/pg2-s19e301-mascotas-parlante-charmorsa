@@ -1,5 +1,4 @@
 Public Class Cliente
-    Private Cuentas As List(Of Cuenta)
     Public Sub New()
         Me.New("", 0, Date.MinValue)
     End Sub
@@ -10,24 +9,9 @@ Public Class Cliente
         Me.Nombre = Nombre
         Me.Documento = Documento
         Me.FechaNacimiento = FechaNacimiento
-        Cuentas = New List(Of Cuenta)
+        _cuentas = New List(Of Cuenta)
     End Sub
     Private _nombre As String
-    'Public Sub New()
-    '    Nombre = ""
-    '    Documento = 0
-    '    FechaNacimiento = Date.MinValue
-    '    Cuentas = New List(Of Cuenta)
-    'End Sub
-    'Public Sub New(Nombre As String, Documento As Integer)
-    '    Me.New()
-    '    Me.Nombre = Nombre
-    '    Me.Documento = Documento
-    'End Sub
-    'Public Sub New(Nombre As String, Documento As Integer, FechaNacimiento As Date)
-    '    Me.New(Nombre, Documento)
-    '    Me.FechaNacimiento = FechaNacimiento
-    'End Sub
     Public Property Nombre As String
         Get
             Return _nombre
@@ -54,4 +38,19 @@ Public Class Cliente
             _fechaNacimiento = value
         End Set
     End Property
+    Public Overrides Function ToString() As String
+        Return Nombre & " " & Documento
+    End Function
+    Private _cuentas As List(Of Cuenta)
+    Friend Sub AddCuenta(cuenta As Cuenta)
+        If _cuentas.Count < 2 Then
+            _cuentas.Add(cuenta)
+        End If
+    End Sub
+    Public Function GetAllCuentas() As List(Of Cuenta)
+        Return _cuentas
+    End Function
+    Friend Sub RemoveCuenta(cuenta As Cuenta)
+        _cuentas.Remove(cuenta)
+    End Sub
 End Class

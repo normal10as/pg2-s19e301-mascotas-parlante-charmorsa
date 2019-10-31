@@ -1,4 +1,5 @@
 ﻿Imports Entidades
+
 Public Module CotorraTest
     Sub cotorra()
         Dim cotorra1 As Cotorra
@@ -21,7 +22,8 @@ Public Module CotorraTest
         Console.WriteLine(cotorra1.hablar())
         Console.WriteLine(cotorra1.hablar())
         Console.WriteLine(cotorra1.hablar())
+
+        Console.WriteLine("ToString():")
+        Console.WriteLine(cotorra1.ToString())
     End Sub
-
-
 End Module

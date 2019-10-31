@@ -69,7 +69,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BancoTest.vb" />
     <Compile Include="ClienteTest.vb" />
+    <Compile Include="CuentaCorrienteTest.vb" />
     <Compile Include="CuentaTest.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

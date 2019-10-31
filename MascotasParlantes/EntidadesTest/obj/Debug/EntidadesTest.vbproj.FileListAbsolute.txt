@@ -2,3 +2,13 @@ E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-
 E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.Resources.resources
 E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.vbproj.GenerateResource.cache
 E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.vbproj.CoreCompileInputs.cache
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\EntidadesTest.exe.config
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\EntidadesTest.exe
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\EntidadesTest.pdb
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\EntidadesTest.xml
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\Entidades.dll
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\bin\Debug\Entidades.pdb
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.vbproj.CopyComplete
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.exe
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.xml
+E:\facultad\SEGUNDO\PROGRAMACION 2\trabajos\OBJETOS\MascotaParlante\pg2-s19e301-mascotas-parlante-charmorsa\MascotasParlantes\EntidadesTest\obj\Debug\EntidadesTest.pdb

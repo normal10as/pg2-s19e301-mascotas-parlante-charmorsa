@@ -1,29 +1,33 @@
-﻿Imports Entidades
+﻿Imports System
+Imports Entidades
+
+
 Module LoroTest
-
+    Public loro1 As Loro
     Sub Loro()
-        Dim loro1 As Loro
+
         loro1 = New Loro()
-        loro1.FechaNacimiento = #10-02-2001#
-        loro1.Nombre = "lorenzo"
+        loro1.Nombre = "pepe"
+        loro1.FechaNacimiento = #08-30-2000#
 
-        Console.WriteLine("nombre es {0}", loro1.Nombre)
-        Console.WriteLine("Fecha nacimiento: " & loro1.FechaNacimiento)
-        Console.WriteLine("la edad es {0}", loro1.Edad)
+        Console.WriteLine("Loro")
+        Console.WriteLine("Nombre: " & loro1.Nombre)
+        Console.WriteLine("Nacimiento: " & loro1.FechaNacimiento)
+        Console.WriteLine("Edad: " & loro1.Edad)
 
-        loro1.Escuchar("Papita")
-        loro1.Escuchar(" pa el loro")
-        loro1.Escuchar(" Juan")
+        'Cargo a la memoria las frases'
+        loro1.escuchar("papita ")
+        loro1.escuchar("pa el loro ")
+        loro1.escuchar("juan")
 
-        Console.WriteLine("Hablando: ")
+        Console.WriteLine("Muestro las frases")
+        Console.WriteLine(loro1.hablar())
+        Console.WriteLine(loro1.hablar())
+        Console.WriteLine(loro1.hablar())
+        Console.WriteLine(loro1.hablar())
 
-        Console.WriteLine(loro1.Hablar())
-        Console.WriteLine(loro1.Hablar())
-        Console.WriteLine(loro1.Hablar())
-        Console.WriteLine(loro1.Hablar())
 
-        Console.Write("   ")
+        Console.WriteLine("ToString():")
         Console.WriteLine(loro1.ToString())
     End Sub
-
 End Module

@@ -1,7 +1,11 @@
 ﻿Imports Entidades
+Imports System
+
 Module Module1
     Sub main()
         'ClienteTest()
-        CuentaTest.Hacer()
+        'CuentaTest.Hacer()
+        CuentaCorrienteTest.Hacer()
+        'BancoTest.hacer()
     End Sub
 End Module

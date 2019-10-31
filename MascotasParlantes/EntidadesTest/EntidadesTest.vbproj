@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CotorraTest.vb" />
+    <Compile Include="JaulaTest.vb" />
     <Compile Include="Loro.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

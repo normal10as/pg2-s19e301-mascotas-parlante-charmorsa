@@ -1,25 +1,24 @@
-Imports System.DateTime
 Public Class Loro
     Private memoria As Queue(Of String)
     Public Sub New()
         memoria = New Queue(Of String)
+        Nombre = ""
         FechaNacimiento = Date.Now
-        Nombre = " "
     End Sub
 
     Public ReadOnly Property Edad As Short
         Get
-            Return CalcularEdad(FechaNacimiento)
+            Return calcularEdad(FechaNacimiento)
         End Get
     End Property
 
-    Private _fechanacimiento As Date
+    Private _fechaNacimiento As Date
     Public Property FechaNacimiento As Date
         Get
-            Return _fechanacimiento
+            Return _fechaNacimiento
         End Get
         Set(value As Date)
-            _fechanacimiento = value
+            _fechaNacimiento = value
         End Set
     End Property
 
@@ -32,28 +31,32 @@ Public Class Loro
             _nombre = value
         End Set
     End Property
-    Private Function CalcularEdad(FechaNacimiento As Date) As UShort
-        Dim DiferenciaEdad As UShort
-        Dim FechaActual As Date = Date.Now()
-        DiferenciaEdad = (FechaActual.Year) - (FechaNacimiento.Year)
-        If (FechaActual.Month < FechaNacimiento.Month) Then
-            DiferenciaEdad = DiferenciaEdad - 1
-        ElseIf (FechaActual.Month = FechaNacimiento.Month And FechaActual.Day < FechaNacimiento.Day) Then
-            DiferenciaEdad = DiferenciaEdad - 1
+
+    Private Function calcularEdad(value As Date) As UShort
+        Dim hoy As Date = Date.Now()
+        Dim edad As UShort
+        edad = (hoy.Year) - (value.Year)
+        If (hoy.Month < value.Month) Then
+            edad -= 1
+        ElseIf hoy.Month = value.Month And hoy.Day < value.Day Then
+            edad -= 1
         End If
-        Return DiferenciaEdad
+        Return edad
     End Function
-    Public Sub Escuchar(frase As String)
+
+    Public Overridable Sub escuchar(frase As String)
         memoria.Enqueue(frase)
     End Sub
-    Public Function Hablar() As String
-        Dim frase As String = ""
-        If memoria.Count > 0 Then
-            frase = memoria.Dequeue()
-        End If
-        Return frase
-    End Function
+
     Public Overrides Function ToString() As String
         Return Nombre
+    End Function
+
+    Private frase As String
+    Public Function hablar() As String
+        If memoria.Count > 0 Then
+            frase += memoria.Dequeue()
+        End If
+        Return frase
     End Function
 End Class
